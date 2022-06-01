@@ -68,7 +68,7 @@ d3.csv("sleconomicdataset.csv")
 					.domain([0,max])
 					.range([height,0]);
 
-		var x = d3.scaleTime()
+		var x = d3.scaleLinear()
 					.domain([minDate,maxDate])
 					.range([0,width]);
 
